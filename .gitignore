@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Bancos vetoriais e artefatos locais
+chromadb_*/
+chromadb_vectorstore_*/
+*.sqlite3
+*.db
+
+# Ambientes locais
+.venv/
+venv/
+
+# Sistema operacional / IDE
+.DS_Store
+.vscode/
+.idea/
